@@ -59,7 +59,7 @@ a:focus {
     box-shadow: inset 0 0 0 0 #EF233C;
     border-color: #EF233C;
 }
-
+/*Loading  for this  web */
 #loader {
     position: fixed;
     top: 0;
