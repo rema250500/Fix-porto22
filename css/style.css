@@ -1,12 +1,15 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
+/*Mengatur semua yang ada di dalam body*/
 body {
     color: #797979;
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Mengatur h*/
 h1,
 h2, 
 h3, 
@@ -16,11 +19,14 @@ h6 {
     color: #414141;
 }
 
+/*Mengatur warna link*/
+
 a {
     color: #313131;
     transition: .3s;
 }
 
+/*Mengatur  hover a saat di klik*/
 a:hover,
 a:active,
 a:focus {
@@ -29,6 +35,7 @@ a:focus {
     text-decoration: none;
 }
 
+/*Mengatur btn supaya  tidak muncul shadow (bayangan)*/
 .btn:focus,
 .form-control:focus {
     box-shadow: none;
@@ -203,7 +210,6 @@ a:focus {
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
         color: #414141;
     }
-
 
 
     /*Change color hover for navbar */
@@ -491,18 +497,24 @@ a:focus {
     margin-bottom: 30px;
 }
 
+
+/*for control  about-img  position*/
 .about .about-img {
     /*position: relative;*/
     position:relative;
     height: 100%;
 }
 
+/*for control about-img*/
 .about .about-img img {
     position: relative;
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
     object-fit: cover;
     text-align:center;
+    height:400px;
+    width:400px;
+    border-radius:5%;
 }
 
 .about .about-content {
