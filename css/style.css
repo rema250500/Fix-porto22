@@ -30,6 +30,7 @@ a {
 a:hover,
 a:active,
 a:focus {
+    /*mangatur  warna  dasar*/
     color: #EF233C;
     outline: none;
     text-decoration: none;
@@ -155,7 +156,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 0px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -165,7 +166,8 @@ a:focus {
 
 .navbar .navbar-brand img {
     max-width: 100%;
-    max-height: 40px;
+    /*nilai maksimal gambar navbar*/
+    max-height: 50px;
 }
 
 .navbar .dropdown-menu {
@@ -260,7 +262,8 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/coding-bg.jpg);
+    /*background for hero */
+    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/Gallery/Code.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -491,6 +494,7 @@ a:focus {
 
 .about .col-lg-6 {
     padding: 0;
+    margin-top:20px;
 }
 
 .about .section-header {
@@ -510,15 +514,64 @@ a:focus {
     position: relative;
     /*width: 100%;*/
     /*height: 100%;*/
+    object-fit:cover;
+    text-align:center;
+    height:300px;
+    width:300px;
+    margin-right:180px;
+}
+
+/*Photo 2*/
+.about .about-img2{
+    position:relative;
+    height:50%;
+}
+
+.about .about-img2 img{
+    position:relative;
+    object-fit:cover;
+    text-align:center;
+    height:300px;
+    width:300px;
+    margin-left: 150px;
+    margin-top:-200px;
+    border-width: 2px;
+    border-color: #EF233C;
+}
+
+/*for control about-img*/
+.about .about-img3 img {
+    position: relative;
+    /*width: 100%;*/
+    /*height: 100%;*/
     object-fit: cover;
     text-align:center;
-    height:400px;
-    width:400px;
-    border-radius:5%;
+    height:300px;
+    width:300px;
+    margin-left: 300px;
+    margin-top:-150px;
+    border-width: 3px;
+    border-color: #EF233C;
 }
+
+
+/*Photo 2*/
+.about .about-img3{
+    position:relative;
+    height:50%;
+}
+
+/*for */
+.about .about-img{
+    margin-left:200px;
+}
+
+
+
 
 .about .about-content {
     padding: 0 60px;
+    
 }
 
 .about .about-text p {
@@ -903,15 +956,17 @@ a:focus {
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
 }
 
+/*Mengatur teks di portofolio*/
 .portfolio .portfolio-text h3 {
     width: calc(100% - 70px);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     margin: 0 0 0 15px;
     white-space: nowrap;
     overflow: hidden;
 }
 
+/*konten dalam button*/
 .portfolio .portfolio-text a.btn {
     width: 50px;
     height: 50px;
@@ -919,7 +974,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+    font-size: 15px;
     font-weight: 100;
 }
 
@@ -1440,8 +1495,9 @@ a:focus {
     border-left: 1px solid rgba(0, 0, 0, .07);
 }
 
+/*Mengatur Blog*/
 .blog .blog-text h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 

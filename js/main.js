@@ -29,7 +29,6 @@
         return false;
     });
     
-    
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
@@ -90,7 +89,6 @@
             }
         }
     });
-    
     
     
     // Portfolio filter
