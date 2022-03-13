@@ -10,8 +10,8 @@
         }, 1);
     };
     loader();
-    
-    
+    //end of loader
+
     // Initiate the wowjs
     new WOW().init();
     
